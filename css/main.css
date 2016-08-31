@@ -496,18 +496,25 @@ body{
 	font-size: 18px;
 	line-height: 24px;
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	min-width: 320px;
 }
 
 .container__head{
 	width: 1323px;
-	height: 1000px;
+	height: 633px;
 	background-image: url(../img/main_bg.png);
 	background-repeat: no-repeat;
 	background-position: center -190px;
 	max-width: 100%;
 	position: relative;
+}
+
+.container{
+	width: 880px;
+	max-width: 100%;
+	position: relative;
+	margin: 0 auto;
 }
 
 .logos{
@@ -858,13 +865,13 @@ h1.title{
 .avtomaty__left{
 	background-image: url(../img/avtomaty-left.png);
 	background-repeat: no-repeat;
-	    width: 440px;
-    height: 520px;
-    position: absolute;
-    top: 55px;
-    float: left;
-    z-index: 10;
-    left: 0;
+			width: 440px;
+		height: 520px;
+		position: absolute;
+		top: 55px;
+		float: left;
+		z-index: 10;
+		left: 0;
 }
 
 .avtomaty__left::before{
@@ -875,8 +882,8 @@ h1.title{
 	width: 169px;
 	height: 97px;
 	position: absolute;
-    top: 215px;
-    left: 98px;
+		top: 215px;
+		left: 98px;
 }
 
 .avtomaty__left::after{
@@ -894,13 +901,13 @@ h1.title{
 .avtomaty__right{
 	background-image: url(../img/avtomaty-right.png);
 	background-repeat: no-repeat;
-	    width: 440px;
-    height: 520px;
-    position: absolute;
-    top: 55px;
-    float: left;
-    z-index: 10;
-    right: 0;
+			width: 440px;
+		height: 520px;
+		position: absolute;
+		top: 55px;
+		float: left;
+		z-index: 10;
+		right: 0;
 }
 
 .avtomaty__right::before{
@@ -926,6 +933,146 @@ h1.title{
 	top: 212px;
 	right: 249px;
 }
+
+.games{
+	position: relative;
+	margin: -40px 0px 0 30px;
+}
+
+.games__item{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(159,169,184);
+  background:linear-gradient( 90deg, #394048 0%, rgb(50,57,64) 100%);
+}
+
+.game__btn{
+	border-radius: 5px;
+	background:linear-gradient( 90deg, rgb(77,57,188) 0%, rgb(0,138,237) 100%);
+	box-shadow: 0px 2px 1px 0px rgba(5, 33, 73, 0.004),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.game__btn:hover{
+	background:linear-gradient( 90deg, rgb(0,138,237) 0%, rgb(77,57,188) 100%);
+}
+
+.game__text{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.2;
+	background-color: linear-gradient( 90deg, #282d31 0%, #47515a 100%);
+	text-shadow: 0.707px 0.707px 1px rgba(0, 0, 1, 0.75);
+	margin-top: -7px;
+	padding: 6px;
+
+}
+
+.effect {
+	position: relative;
+} 
+
+.effect img {
+	width: 171px;
+    height: 90px;
+    /* padding: 7px 7px 0; */
+    margin: 7px;
+    margin-bottom: 30px;
+    display: block;
+}
+.eff-10-3 {
+	  width: 22%;
+	  height: 160px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.games__item:last-child{
+	margin-right: 0;
+}
+.eff-10-3 .caption {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.7);
+	width: 93%;
+    height: 64%;
+    margin-left: 4%;
+    margin-top: 4%;
+	color: #fff;
+	opacity: 0;
+	-moz-transform: rotate(30deg) translate(30px,-89px);
+	-webkit-transform: rotate(30deg) translate(30px,-89px);
+	-ms-transform: rotate(30deg) translate(30px,-89px);
+	-o-transform: rotate(30deg) translate(30px,-89px);
+	transform: rotate(30deg) translate(30px,-89px);
+	-o-transition: transform 0.35s cubic-bezier(0.49, -0.19, 0.7, -0.01) 0.1s, opacity 0.1s linear 0s;
+	-moz-transition: transform 0.35s cubic-bezier(0.49, -0.19, 0.7, -0.01) 0.1s, opacity 0.1s linear 0s;
+	-webkit-transition: transform 0.35s cubic-bezier(0.49, -0.19, 0.7, -0.01) 0.1s, opacity 0.1s linear 0s;
+	-ms-transition: transform 0.35s cubic-bezier(0.49, -0.19, 0.7, -0.01) 0.1s, opacity 0.1s linear 0s;
+	transition: transform 0.35s cubic-bezier(0.49, -0.19, 0.7, -0.01) 0.1s, opacity 0.1s linear 0s;
+}
+
+.eff-10-3 .caption .game__btn {
+	width: 130px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	padding: 10px 0px;
+	border-radius: 5px;
+	margin: 0px auto 0px auto;
+	margin-top: 25px;
+}
+.eff-10-3 img {
+	-o-transition: all 0.25s linear 0.3s;
+	-moz-transition: all 0.25s linear 0.3s;
+	-webkit-transition: all 0.25s linear 0.3s;
+	-ms-transition: all 0.25s linear 0.3s;
+	transition: all 0.25s linear 0.3s;
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.eff-10-3 img:hover{
+	cursor: pointer;
+}
+.eff-10-3:hover img {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-delay: 0s;
+    /* border-left: 8px solid transparent; */
+    /* border-right: 8px solid transparent; */
+    width: 156px;
+    height: 90px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.eff-10-3:hover .caption {
+	-webkit-transform: rotate(0deg) translate(0px,0px);
+	-o-transform: rotate(0deg) translate(0px,0px);
+	-moz-transform: rotate(0deg) translate(0px,0px);
+	-ms-transform: rotate(0deg) translate(0px,0px);
+	transform: rotate(0deg) translate(0px,0px);
+	opacity: 1;
+	-moz-transition-delay: 0.3s;
+	-webkit-transition-delay: 0.3s;
+	-o-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
 
 @media screen and (max-width: 1100px) {
 	.avtomaty__left{
