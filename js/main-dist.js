@@ -1,0 +1,2 @@
+"use strict";var scrollUp=document.getElementById("scrollup");scrollUp.onclick=function(){window.scrollTo(0,0)},window.onscroll=function(){window.pageYOffset>0?scrollUp.style.display="block":scrollUp.style.display="none"};
+//# sourceMappingURL=main-dist.js.map
