@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["scrollUp","document","getElementById","onclick","window","scrollTo","onscroll","pageYOffset","style","display"],"mappings":"AAAA,YAEA,IAAIA,UAAWC,SAASC,eAAe,WAEtCF,UAASG,QAAU,WAClBC,OAAOC,SAAS,EAAE,IAGnBD,OAAOE,SAAW,WACZF,OAAOG,YAAc,EACzBP,SAASQ,MAAMC,QAAU,QAEzBT,SAASQ,MAAMC,QAAU"}
